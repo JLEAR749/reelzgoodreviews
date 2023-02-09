@@ -1,20 +1,20 @@
 const router = require('express').Router();
 
-//const {} = require ('');
+const {Movie} = require ('../../models');
 
-//-----------------------find all users
+//-----------------------find all movies
 
 router.get('/', async (req, res) => {
     try {
-      const userData = await User.findAll({
+      const movieData = await Movie.findAll({
         //include: [{ model: Product }],
         
       });
   
-      res.status(200).json(userData);
+      res.status(200).json(movieData);
     } catch (err) {
       res.status(500).json(err);
-      console.log(userData);
+      console.log(movieData);
     }
   });
   
@@ -22,23 +22,25 @@ router.get('/', async (req, res) => {
    // ------------------------------- find one user by its `id` value
   router.get('/:id', async (req, res) => {
     try {
-      const userData = await User.findByPk(req.params.id, {
+      const movieData = await Movie.findByPk(req.params.id, {
         //include: [{model: Product}]
       });
   
-    if (!userData) {
-      res.status(404).json({ message: `No user with this id!`});
+    if (!movieData) {
+      res.status(404).json({ message: `No movies with this id!`});
       return;
     }
-    res.status(200).json(userData);
+    res.status(200).json(movieData);
     } catch (err) {
       res.status(500).json(err);
     }
   });
   
   
+  
+  //--------------------NOT SURE WE NEED TO DELETE MOVIES--------------------//
   // ------------------------------- create a new category
-  router.post('/', async (req, res) => {
+  /*router.post('/', async (req, res) => {
     try {
       const userData = await User.create(req.body);
       res.status(200).json(reviewData);
@@ -46,6 +48,7 @@ router.get('/', async (req, res) => {
       res.status(400).json(err);
     }
   });
+  */
   
 
   module.exports = router;
