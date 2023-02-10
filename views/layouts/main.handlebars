@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -31,5 +31,42 @@
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
+</html> --}}
+
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+      <h1>
+        <span role="img" aria-label="money">💸</span>
+        <a href="/">Movie Reviews</a>
+      </h1>
+      <nav>
+        <!-- Conditionally render login or logout links -->
+        <a class="link" href="/">Home</a>
+                    <a class="link" href="/dashboard">Dashboard</a>
+        {{#if loggedIn}}
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main class="container container-fluid mt-5">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+
 </html>
 
