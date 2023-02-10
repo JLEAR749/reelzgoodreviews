@@ -1,23 +1,26 @@
-{{!-- idea is to loop over all seeded films with information --}}
-<div>
-    {{#each film as |film| }}
-    <div>
-        <div>
-            <img src="" alt="">{{film.img}}
-            <h3>
-                <a href="{{film.id}}">{{film.name}}</a>
-            </h3>
-        </div>
-        <div>
-            <ol>
-                <li>{{film.rating}}</li>
-                <li>{{film.time}}</li>
-                <li>{{film.genre}}</li>
-            </ol>
-        </div>
-        <div>
-            <p>{{film.info}}</p>
-        </div>
+{{#each posts as |post|}}
+
+  <div class="row">
+
+    <div class="container blogBox">
+			<div class="row  justify-content-center headerRow">
+      <div class="col-8">
+        <h2>
+          <a class="postTitle text-uppercase" href="/post/{{post.id}}>{{post.title}} {{post.content}}"</a>
+        </h2>
+      </div>
+
+      <div class="col-4">
+       
+      </div>
+			</div>
+    <div class="postDesc">
+      <p class="text-center postDescMain">
+        {{post.content}}
+      </p>
     </div>
-    {{/each}}
-</div>
+    </div>
+
+  </div>
+  {{/each}}
+   
