@@ -20,7 +20,7 @@ Post.init(
         }
     },
 
-        description: {
+        content: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
