@@ -13,7 +13,12 @@ Profile.init(
         },
         name: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: false
+        
+        },
+        person: {
+            firstname: 'Kelsey',
+            lastname: 'Taylor',
         },
         email: {
             type: DataTypes.STRING,
