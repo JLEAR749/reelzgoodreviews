@@ -21,19 +21,14 @@ Profile.init(
             unique: true,
             validate: {
                 isEmail: true
-            },
-            },
-        password: {
-            type: DataTypes.STRING,
-            allowNull: false,
-            unique: true,
-            validate: {
-                isPassword: true
-            }
-        }
         },
-    },
-{
+        birthday: {
+            type: DataTypes, INTERGERS,
+            allowNull: false,
+            unique: true
+        },
+        
+    },    
         sequelize,
         timestamps: false,
         freezeTableName: true,
@@ -42,4 +37,4 @@ Profile.init(
     }
 );
 
-module.exports = Profile;
+module.exports = profile;
