@@ -19,7 +19,6 @@ Review.belongsTo(User, {
     foreignKey: 'user_id'
 });
 
-
 Post.hasMany(Review, {
     foreignKey: 'post_id'
 });
