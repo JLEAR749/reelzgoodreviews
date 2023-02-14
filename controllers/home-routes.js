@@ -6,18 +6,7 @@ const withAuth = require("../utils/auth");
 router.get("/", async (req, res) => {
   try {
     const dbMovieData = await Movie.findAll({
-      // include: [
-      //   {
-      // 	model: Movie,
-      // 	attributes: [
-      // 	'title',
-      // 	'rated',
-      // 	'length',
-      // 	'genre',
-      // 	'description',
-      // 	'imdb_rating']
-      //   },
-      // ],
+   
     });
 
     const movies = dbMovieData.map((movie) => movie.get({ plain: true }));
@@ -66,8 +55,9 @@ router.get("/post/:id", async (req, res) => {
           model: User,
           attributes: ["username"],
         },
+        
         {
-          model: Comment,
+          model: Post,
           include: [User],
         },
       ],
@@ -87,6 +77,7 @@ router.get("/post/:id", async (req, res) => {
 });
 
 router.get("/dashboard", withAuth, async (req, res) => {
+  
   try {
     const userData = await User.findByPk(req.session.user_id, {
       attributes: {
@@ -94,7 +85,7 @@ router.get("/dashboard", withAuth, async (req, res) => {
       },
       include: [
         {
-          model: Post,
+          model: Movie,
         },
       ],
     });
