@@ -1,0 +1,39 @@
+<div class="text">
+	<div class="container postBoxCont">
+		<div class="row headerRow">
+			<div class="col-8">
+				<h2 class="postTitle text-uppercase">{{title}}</h2>
+			</div>
+			<div class="col-4">
+				<p class="postCreate text-right">Created by {{user.username}} on {{format_date date_created}}</p>
+			</div>
+		</div>
+		<p class="text-center postDescTwo">{{content}}</p>
+		</div>	
+</div>`
+
+{{#if logged_in}}
+
+		<form class="new-comment-form formCont d-flex flex-wrap justify-content-center" data-postid={{id}}>
+			<div class="textAreaCont p-2">
+				<textarea id='comment_description' name="comment-body"
+				placeholder="Enter a comment here..."
+				cols="30"
+				rows="2"></textarea>
+			</div>
+			<div class="btnComment p-2">
+				<button class="button btn btn-success" type="submit">Add Comment</button>
+			</div>
+		</form>
+
+		{{/if}}
+
+        	<h2 class="text-center">Comments</h2>
+		{{#each comments as |comment|}}
+		<div class="commentCont">
+			<p class="text-center commentText">{{comment.comment_description}}</p>
+			<p class="text-center commentOwner"><span>~</span>Created by {{comment.user.username}} on {{format_date date_created}}<span>~</span></p>
+		</div>
+		{{/each}}
+
+		<script src="/js/comments.js"></script>
