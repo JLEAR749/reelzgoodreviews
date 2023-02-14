@@ -27,6 +27,8 @@ Review.belongsTo(Post, {
     foreignKey: 'post_id'
 })
 
+
+//------------------------UPDATED MOVIE CODE
 User.hasMany(Movie, {
   foreignKey: 'user_id'
 });
@@ -42,5 +44,6 @@ Movie.hasMany(Review, {
 Review.belongsTo(Movie, {
   foreignKey: 'post_id'
 })
+
 
   module.exports = { Review, User, Post, Movie};

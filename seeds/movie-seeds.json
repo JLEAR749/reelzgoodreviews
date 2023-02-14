@@ -1,0 +1,403 @@
+ [
+    {
+        "title": "The Shawshank Redemption",
+        "rated": "R",
+        "length": "142",
+        "genre": "Drama",
+        "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+        "imdb_rating": "1"
+    },
+    {
+        "title": "The Godfather",
+        "rated": "R",
+        "length": "175",
+        "genre": "Crime",
+        "description": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+        "imdb_rating": "2"
+    },
+    {
+        "title": "The Dark Knight",
+        "rated": "PG-13",
+        "length": "152",
+        "genre": "Action",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "imdb_rating": "3"
+    },
+    {
+        "title": "Schindler's List",
+        "rated": "R",
+        "length": "195",
+        "genre": "Drama",
+        "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "imdb_rating": "4"
+    },
+    {
+        "title": "The Godfather Part II",
+        "rated": "R",
+        "length": "202",
+        "genre": "Crime",
+        "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+        "imdb_rating": "5"
+    },
+    {
+        "title": "12 Angry Men",
+        "rated": "Approved",
+        "length": "96",
+        "genre": "Crime",
+        "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+        "imdb_rating": "6"
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "rated": "PG-13",
+        "length": "201",
+        "genre": "Action",
+        "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "imdb_rating": "7"
+    },
+    {
+        "title": "Pulp Fiction",
+        "rated": "R",
+        "length": "154",
+        "genre": "Crime",
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "imdb_rating": "8"
+    },
+    {
+        "title": "Inception",
+        "rated": "PG-13",
+        "length": "148",
+        "genre": "Action",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "imdb_rating": "9"
+    },
+    {
+        "title": "Fight Club",
+        "rated": "R",
+        "length": "139",
+        "genre": "Drama",
+        "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+        "imdb_rating": "10"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "rated": "PG-13",
+        "length": "178",
+        "genre": "Action",
+        "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "imdb_rating": "11"
+    },
+    {
+        "title": "Forrest Gump",
+        "rated": "PG-13",
+        "length": "142",
+        "genre": "Drama",
+        "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "imdb_rating": "12"
+    },
+    {
+        "title": "The Good, the Bad and the Ugly",
+        "rated": "Approved",
+        "length": "178",
+        "genre": "Adventure",
+        "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+        "imdb_rating": "13"
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "rated": "PG-13",
+        "length": "179",
+        "genre": "Action",
+        "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+        "imdb_rating": "14"
+    },
+    {
+        "title": "Jai Bhim",
+        "rated": "TV-MA",
+        "length": "164",
+        "genre": "Crime",
+        "description": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.",
+        "imdb_rating": "15"
+    },
+    {
+        "title": "Goodfellas",
+        "rated": "R",
+        "length": "145",
+        "genre": "Biography",
+        "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+        "imdb_rating": "16"
+    },
+    {
+        "title": "The Matrix",
+        "rated": "R",
+        "length": "136",
+        "genre": "Action",
+        "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "imdb_rating": "17"
+    },
+    {
+        "title": "One Flew Over the Cuckoo's Nest",
+        "rated": "18+",
+        "length": "133",
+        "genre": "Drama",
+        "description": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
+        "imdb_rating": "18"
+    },
+    {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "rated": "PG-13",
+        "length": "124",
+        "genre": "Action",
+        "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+        "imdb_rating": "19"
+    },
+    {
+        "title": "Interstellar",
+        "rated": "PG-13",
+        "length": "169",
+        "genre": "Adventure",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "imdb_rating": "20"
+    },
+    {
+        "title": "Se7en",
+        "rated": "R",
+        "length": "127",
+        "genre": "Crime",
+        "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "imdb_rating": "21"
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "rated": "R",
+        "length": "118",
+        "genre": "Crime",
+        "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+        "imdb_rating": "22"
+    },
+    {
+        "title": "Saving Private Ryan",
+        "rated": "R",
+        "length": "169",
+        "genre": "Drama",
+        "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+        "imdb_rating": "23"
+    },
+    {
+        "title": "The Green Mile",
+        "rated": "R",
+        "length": "189",
+        "genre": "Crime",
+        "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+        "imdb_rating": "24"
+    },
+    {
+        "title": "Star Wars: Episode IV - A New Hope",
+        "rated": "PG",
+        "length": "121",
+        "genre": "Action",
+        "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+        "imdb_rating": "25"
+    },
+    {
+        "title": "Life Is Beautiful",
+        "rated": "PG-13",
+        "length": "116",
+        "genre": "Comedy",
+        "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
+        "imdb_rating": "26"
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "rated": "R",
+        "length": "137",
+        "genre": "Action",
+        "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her 10-year old son John from an even more advanced and powerful cyborg.",
+        "imdb_rating": "27"
+    },
+    {
+        "title": "Spirited Away",
+        "rated": "PG",
+        "length": "125",
+        "genre": "Animation",
+        "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+        "imdb_rating": "28"
+    },
+    {
+        "title": "City of God",
+        "rated": "R",
+        "length": "130",
+        "genre": "Crime",
+        "description": "In the slums of Rio, two kids\" paths diverge as one struggles to become a photographer and the other a kingpin.",
+        "imdb_rating": "29"
+    },
+    {
+        "title": "It's a Wonderful Life",
+        "rated": "PG",
+        "length": "130",
+        "genre": "Drama",
+        "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
+        "imdb_rating": "30"
+    },
+    {
+        "title": "Seven Samurai",
+        "rated": "Not Rated",
+        "length": "207",
+        "genre": "Action",
+        "description": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him.",
+        "imdb_rating": "31"
+    },
+    {
+        "title": "Harakiri",
+        "rated": "Not Rated",
+        "length": "133",
+        "genre": "Action",
+        "description": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.",
+        "imdb_rating": "32"
+    },
+    {
+        "title": "Whiplash",
+        "rated": "R",
+        "length": "106",
+        "genre": "Drama",
+        "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        "imdb_rating": "33"
+    },
+    {
+        "title": "Parasite",
+        "rated": "R",
+        "length": "132",
+        "genre": "Drama",
+        "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "imdb_rating": "34"
+    },
+    {
+        "title": "Gladiator",
+        "rated": "R",
+        "length": "155",
+        "genre": "Action",
+        "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "imdb_rating": "35"
+    },
+    {
+        "title": "The Departed",
+        "rated": "R",
+        "length": "151",
+        "genre": "Crime",
+        "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+        "imdb_rating": "36"
+    },
+    {
+        "title": "Léon: The Professional",
+        "rated": "R",
+        "length": "110",
+        "genre": "Action",
+        "description": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+        "imdb_rating": "37"
+    },
+    {
+        "title": "The Prestige",
+        "rated": "PG-13",
+        "length": "130",
+        "genre": "Drama",
+        "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+        "imdb_rating": "38"
+    },
+    {
+        "title": "Apocalypse Now",
+        "rated": "R",
+        "length": "147",
+        "genre": "Drama",
+        "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+        "imdb_rating": "39"
+    },
+    {
+        "title": "Back to the Future",
+        "rated": "PG",
+        "length": "116",
+        "genre": "Adventure",
+        "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+        "imdb_rating": "40"
+    },
+    {
+        "title": "Alien",
+        "rated": "R",
+        "length": "117",
+        "genre": "Horror",
+        "description": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
+        "imdb_rating": "41"
+    },
+    {
+        "title": "The Lion King",
+        "rated": "G",
+        "length": "88",
+        "genre": "Animation",
+        "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+        "imdb_rating": "42"
+    },
+    {
+        "title": "The Usual Suspects",
+        "rated": "R",
+        "length": "106",
+        "genre": "Crime",
+        "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+        "imdb_rating": "43"
+    },
+    {
+        "title": "American History X",
+        "rated": "R",
+        "length": "119",
+        "genre": "Crime",
+        "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+        "imdb_rating": "44"
+    },
+    {
+        "title": "The Pianist",
+        "rated": "R",
+        "length": "150",
+        "genre": "Biography",
+        "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+        "imdb_rating": "45"
+    },
+    {
+        "title": "Casablanca",
+        "rated": "PG",
+        "length": "102",
+        "genre": "Drama",
+        "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
+        "imdb_rating": "46"
+    },
+    {
+        "title": "The Intouchables",
+        "rated": "R",
+        "length": "112",
+        "genre": "Biography",
+        "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+        "imdb_rating": "47"
+    },
+    {
+        "title": "Psycho",
+        "rated": "R",
+        "length": "109",
+        "genre": "Horror",
+        "description": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+        "imdb_rating": "48"
+    },
+    {
+        "title": "Once Upon a Time in the West",
+        "rated": "PG-13",
+        "length": "165",
+        "genre": "Western",
+        "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+        "imdb_rating": "49"
+    },
+    {
+        "title": "Grave of the Fireflies",
+        "rated": "Not Rated",
+        "length": "89",
+        "genre": "Animation",
+        "description": "A young boy and his little sister struggle to survive in Japan during World War II.",
+        "imdb_rating": "50"
+    }
+
+]
