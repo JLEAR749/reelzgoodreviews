@@ -1,22 +1,37 @@
-<div class="card">
-      <h3 class="card-header">Login</h3>
-
-    <form class="form"  id ="login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <form id="login-form" class="card-body">
-        <label class="form-label" for="username-login">Username</label>
-        <input  id="username-login" type="text" autofocus="true" class="form-input" />
-
-        <label class="form-label" for="password-login">Password</label>
-        <input id="password-login" type="password" autofocus="true" class="form-input" />
-        <!-- email field -->
-
-        <button type="submit" class="btn">Login</button>
-        <a class="login-link" href="/signup">Sign up</a>
-      </form>
+    <form id='login-form'>
+    <div class="row">
+        <div id='login-header' class="col-10">
+            <h2>Login</h2>
+        </div>
     </div>
-    
+    <div id="login-div" class="row border">
+        <div class="col-10">
+            <label for="username-login">Username</label>
+        </div>
+        <div class="col-10">
+            <input type='text' id='username-login' />
+        </div>
+         <div id="login-div" class="row border">
+        <div class="col-10">
+            <label for="email-login">Email</label>
+        </div>
+        <div class="col-10">
+            <input type='text' id='email-login' />
+        </div>
+        <div class="col-10">
+            <label for='password-login'>Password</label>
+        </div>
+        <div class="col-10">
+            <input type='password' id='password-login' />
+        </div>
+        <div class="col-10">
+            <button type='submit' id='login-btn'>Login!</button>
+        </div>
+        <div class='col-10'>
+            <a href="/signup">Sign-Up Instead!</a>
+        </div>
+    </div>
+</form>
+
 <script src="/js/login.js"></script>
+
