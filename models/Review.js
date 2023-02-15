@@ -12,7 +12,7 @@ Review.init(
         autoIncrement: true,
       },
     // 28-Stu_Mini-Project where I found "len"
-      review_text: {
+      title: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -20,22 +20,15 @@ Review.init(
         },
       },
     
-      user_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'user',
-            key: 'id'
+      content: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            len: [1]
         }
     },
 
-      post_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'post',
-            key: 'id'
-        }
-    },
-    
+  
 }, 
 
 {
