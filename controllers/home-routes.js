@@ -53,7 +53,7 @@ router.get('/post/:id', async (req, res) => {
 });
 
 
-router.get('/dashboard', withAuth, async (req, res) => {
+router.get('/profile', withAuth, async (req, res) => {
 	try {
 		const userData = await User.findByPk(req.session.user_id, {
 			attributes: {
@@ -68,7 +68,7 @@ router.get('/dashboard', withAuth, async (req, res) => {
 			plain: true
 		});
 
-		res.render('dashboard', {
+		res.render('profile', {
 			...user,
 			logged_in: true
 		});
@@ -83,8 +83,8 @@ router.get("/", async (req, res) => {
   res.render("homepage", { loggedIn: req.session.loggedIn }); //using template literal
 });
 
-router.get("/dashboard", async (req, res) => {
-  res.render("dashboard", { loggedIn: req.session.loggedIn });// template literal
+router.get("/profile", async (req, res) => {
+  res.render("[profile]", { loggedIn: req.session.loggedIn });// template literal
 });
 
 router.get("/login", (req, res) => {

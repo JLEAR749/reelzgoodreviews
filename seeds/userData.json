@@ -1,13 +1,41 @@
 [
     {
     "username": "Sam",
+    "name": "Sam Smith",
     "email":"sam@gmail.com",
     "password": "sam1234"
 },
 {
     "username": "Tim",
+    "name": "Tim Smith",
     "email":"tim@gmail.com",
     "password": "tim1234"
+},
+{
+    "username": "George",
+    "name": "George Smith",
+    "email":"george@gmail.com",
+    "password": "george1234"
+},
+{
+    "username": "Calvin",
+    "name": "Calvin Smith",
+    "email":"calvin@gmail.com",
+    "password": "calvin1234"
+},
+{
+    "username": "Jason",
+    "name": "Jason Smith",
+    "email":"jason@gmail.com",
+    "password": "jason1234"
+},
+{
+    "username": "Larry",
+    "name": "Larry Smith",
+    "email":"larry@gmail.com",
+    "password": "larry1234"
 }
+
+
 
 ]
