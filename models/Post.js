@@ -34,14 +34,6 @@ Post.init(
         key: "id",
       },
     },
-
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "user",
-        key: "id",
-      },
-    },
   },
 
   {
