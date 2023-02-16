@@ -29,7 +29,7 @@ const delButtonHandler = async (event) => {
 		const response = await fetch(`/api/posts/${id}`, {
 			method: 'DELETE',
 		});
-
+    console.log(id)
 		if (response.ok) {
 			document.location.replace('/dashboard');
 		} else {

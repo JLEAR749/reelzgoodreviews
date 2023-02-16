@@ -5,20 +5,7 @@ const withAuth = require("../utils/auth");
 
 router.get("/", async (req, res) => {
   try {
-    const dbMovieData = await Movie.findAll({
-      // include: [
-      //   {
-      // 	model: Movie,
-      // 	attributes: [
-      // 	'title',
-      // 	'rated',
-      // 	'length',
-      // 	'genre',
-      // 	'description',
-      // 	'imdb_rating']
-      //   },
-      // ],
-    });
+    const dbMovieData = await Movie.findAll({});
 
     const movies = dbMovieData.map((movie) => movie.get({ plain: true }));
     console.log(movies);
