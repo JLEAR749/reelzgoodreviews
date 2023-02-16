@@ -1,13 +1,16 @@
-<section class="card">
-  <a href="/movie/{{id}}">
-    <header>{{title}}</header>
-    {{!-- <img src="/images/{{paintings.[0].filename}}" alt="{{paintings.[0].description}}"> --}}
-  </a>
-  <ul>
-     {{rated}}
-     {{length}}
-     {{genre}}
-     {{description}}
-     {{imdb_rating}}
-  </ul>
+<section class="card rounded-md border-2 border-black m-5 text-center bg-gray-400 flex justify-center">
+  <div class="rounded-md border-2 border-black m-5 text-center bg-gray-100 flex-none w-80">
+    <a href="/movie/{{id}}">
+      <header class="text-2xl">{{title}}: </header>
+    </a>
+    <ol>
+      <div class="text-[#dc2626]">Rated: {{rated}}</div>
+      <div class="text-base">{{length}} minutes</div>
+      <div class="text-base">{{genre}}</div>
+      <div>IMDB #{{imdb_rating}} rated film</div>
+    </ol>
+  </div>
+  <div class="rounded-md border-2 border-black m-5 bg-gray-100 flex-auto text-2xl">
+    <div>{{description}}</div>
+  </div>
 </section>

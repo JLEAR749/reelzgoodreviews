@@ -19,7 +19,7 @@
       </form>
     </div> --}}
 
-    <div class="row">
+    {{!-- <div class="row">
   <div class="col justify-content-center">
     <h2 class="login">Login</h2>
     <form class="form login-form">
@@ -40,6 +40,37 @@
       </div>
     </form>
   </div>
-</div>
-    
-<script src="./js/login.js"></script>
+</div> --}}
+
+<form class='login-form flex justify-center'>
+  <div id="login-div" class="row border">
+    <div class="col-10">
+      <label for="username-label">Username:</label>
+    </div>
+    <div class="col-10">
+      <input type='text' id='username-login' class="bg-[#9ca3af]"/>
+    </div>
+      <div id="login-div" class="row border">
+    <div class="col-10">
+      <label for="email-label">Email:</label>
+    </div>
+    <div class="col-10">
+      <input type='text' id='email-login' class="bg-[#9ca3af]"/>
+    </div>
+    <div class="col-10">
+      <label for='password-label'>Password:</label>
+    </div>
+    <div class="col-10">
+      <input type='password' id='password-login' class="bg-[#9ca3af]"/>
+    </div>
+    <div class="col-10">
+      <button type='submit' id='login-btn' class="text-[#3b82f6]">Login!</button>
+    </div>
+    <div class='col-10'>
+      <a href="/signup" class="flex justify-center text-[#3b82f6]">Sign-Up Instead!</a>
+    </div>
+  </div>
+</form>
+
+
+<script src="/js/login.js"></script>
