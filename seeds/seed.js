@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { User, Post } = require('../models');
+const { User, Movie } = require('../models');
 
 const userData = require('./userData.json');
-const postData = require('./postData.json');
+const movieData = require('./movie-seeds.json')
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -12,13 +12,12 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  for (const post of postData) {
-    await Post.create({
-      ...post,
-      user_id: users[Math.floor(Math.random() * users.length)].id,
-    });
-  }
-  
+  const movies = await Movie.bulkCreate(movieData, {
+    individualHooks: true, 
+    returning: true,
+  });
+
+
 
   process.exit(0);
 };
