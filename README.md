@@ -2,14 +2,12 @@
 
 ## Screenshot
 
-[Screenshot1]()
+![screenshot](https://user-images.githubusercontent.com/112676566/219511085-6927b839-4c3f-4e8f-aac6-4e02f6061100.png)
+![image](https://user-images.githubusercontent.com/112676566/219511464-4caba7f3-d793-4374-a551-3872a064c7a4.png)
 
  ## Table Of Contents
   - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
   - [License](#license)
-  - [Tests](#tests)
   - [Questions](#questions)
   - [Credits](#credits)
 
@@ -20,13 +18,7 @@ WHEN USER OPENS THE PAGE THEY ARE PRESENTED WITH A SIGN UP FORM. WHEN USER IS SI
 SO THAT AS A USER,
 I WANT TO BE ABLE TO SHARE MY LOVE FOR MOVIES WITH THE WORLD BY WRITING REVIEWS AND SHARING MY MOVIE RATINGS. 
 
-## Installation
-
-## Usage
-
-
-## Contributing
-If you created an application or package and would like other developers to contribute to it, you will want to add guidelines for how to do so. 
+WHEN USER OPENS THE PAGE THEY ARE PRESENTED WITH A SIGN UP FORM. WHEN USER IS SIGNED UP USER IS BROUGHT TO THE MOVIE REVIEW/RATING DASHBOARD. USER IS ABLE TO LOGOUT AND LOGIN AFTER USER IS REGISTERED IN THE DATABASE. USER IS ABLE TO RATE THE MOVIE AND LEAVE COMMENTS ABOUT THE MOVIE SAVED IN THE DATABASE. 
 
 ## Questions
 
