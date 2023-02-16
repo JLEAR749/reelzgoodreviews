@@ -1,48 +1,45 @@
-
-
-<div class="row">
+<div class="flex justify-center">
   <div class="col-auto">
-    <h2></span> My Movie Reviews!</span></h2>
+    <h2></span>Leaving a Review!</span></h2>
   </div>
 </div>
-<!-- dashboard page all can be changed to make page layout different-->
-{{!-- <div class="row mt-4">
-  <div class="col-md-6">
-    <h3>New Movie Review:</h3> --}}
-
     <form class="form new-post-form">
-      <div class="form-group">
-        <input class="form-input" type="text" id="post-title" name="post-title" placeholder="Movie Title" />
+      <div class="form-group flex justify-center">
+        <input class="form-input text-center" type="text" id="post-title" name="post-title" placeholder="Enter Movie Title Here" />
       </div>
-      
-      <div class="form-group">
-        <textarea class="form-input" id="post-desc" name="post-desc" placeholder="Movie Review"></textarea>
+      <div class="form-group flex justify-center">
+        <textarea class="form-input text-center" id="post-desc" name="post-desc" placeholder="Enter Movie Review Here"></textarea>
       </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Make</button>
+      <div class="form-group flex justify-center">
+        <button type="submit" class="btn btn-primary text-[#3b82f6] text-xl">Make Review!</button>
       </div>
     </form>
   </div>
 
   {{#if posts.length}}
   <div class="col-md-6 post-list">
-    <h3>My Movie Reviews:</h3>
+    <h3 class="flex justify-center">My Movie Reviews:</h3>
     
 
-    {{#each posts as |post|}}
-      <div class="postDesc">
+  {{#each posts as |post|}}
+    <div class="postDesc">
       <p class="text-center postDescMain">
-       {{post.title}}
-       
-        {{post.content}}
+        <div class="flex justify-center">
+          Title: {{post.title}}
+        </div>
+        <div class="flex justify-center">
+          {{post.content}}
+        </div>       
       </p>
     </div>
 
     <div class="row mb-2">
-      
-    
-      <div class="col-md-4">
-        <button class="btn btn-danger" data-id="{{post.id}}">DELETE REVIEW</button>
+      <div class="col-md-8">
+        <h4><a href="/post/{{post.id}}>{{post.title}}{{post.content}}"</a></h4>
+      </div>
+     
+      <div class="col-md-4 flex justify-center">
+        <button class="btn btn-danger text-[#3b82f6] text-xl" data-id="{{post.id}}">DELETE REVIEW</button>
       </div>
     </div>
     {{/each}}
