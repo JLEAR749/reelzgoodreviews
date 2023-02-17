@@ -3,18 +3,6 @@
 
  ## Table Of Contents
   - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-
-# Reelzgoodreviews
-
-## Screenshot
-
-![screenshot](https://user-images.githubusercontent.com/112676566/219511085-6927b839-4c3f-4e8f-aac6-4e02f6061100.png)
-![image](https://user-images.githubusercontent.com/112676566/219511464-4caba7f3-d793-4374-a551-3872a064c7a4.png)
-
- ## Table Of Contents
-  - [Description](#description)
   - [License](#license)
   - [Questions](#questions)
 
