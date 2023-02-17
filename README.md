@@ -1,9 +1,23 @@
+
 # Reelzgoodreviewz
 
  ## Table Of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+
+# Reelzgoodreviews
+
+## Screenshot
+
+![screenshot](https://user-images.githubusercontent.com/112676566/219511085-6927b839-4c3f-4e8f-aac6-4e02f6061100.png)
+![image](https://user-images.githubusercontent.com/112676566/219511464-4caba7f3-d793-4374-a551-3872a064c7a4.png)
+
+ ## Table Of Contents
+  - [Description](#description)
+  - [License](#license)
+  - [Questions](#questions)
+
   - [Credits](#credits)
   - [License](#license)
 
@@ -19,6 +33,7 @@ The user will also have the ability to create a profile page where they can uplo
 Create a user, login and write some reviews.
 
 We'd love to hear your movie thoughts!!
+
 
 
 ## Installation
@@ -49,6 +64,9 @@ The user can then go to the dashboard page and create reviews for any movie they
 
 ![Movie List](./Assets/Movie%20Page.png)
 ![Login Page](./Assets/Login%20Page.png)
+=======
+WHEN USER OPENS THE PAGE THEY ARE PRESENTED WITH A SIGN UP FORM. WHEN USER IS SIGNED UP USER IS BROUGHT TO THE MOVIE REVIEW/RATING DASHBOARD. USER IS ABLE TO LOGOUT AND LOGIN AFTER USER IS REGISTERED IN THE DATABASE. USER IS ABLE TO RATE THE MOVIE AND LEAVE COMMENTS ABOUT THE MOVIE SAVED IN THE DATABASE. 
+
 
 
 ## Credits
