@@ -1,11 +1,9 @@
-
 # Reelzgoodreviewz
 
  ## Table Of Contents
   - [Description](#description)
   - [License](#license)
   - [Questions](#questions)
-
   - [Credits](#credits)
   - [License](#license)
 
@@ -52,10 +50,6 @@ The user can then go to the dashboard page and create reviews for any movie they
 
 ![Movie List](./Assets/Movie%20Page.png)
 ![Login Page](./Assets/Login%20Page.png)
-=======
-WHEN USER OPENS THE PAGE THEY ARE PRESENTED WITH A SIGN UP FORM. WHEN USER IS SIGNED UP USER IS BROUGHT TO THE MOVIE REVIEW/RATING DASHBOARD. USER IS ABLE TO LOGOUT AND LOGIN AFTER USER IS REGISTERED IN THE DATABASE. USER IS ABLE TO RATE THE MOVIE AND LEAVE COMMENTS ABOUT THE MOVIE SAVED IN THE DATABASE. 
-
-
 
 ## Credits
 
