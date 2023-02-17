@@ -5,7 +5,6 @@
   - [Description](#description)
   - [License](#license)
   - [Questions](#questions)
-
   - [Credits](#credits)
   - [License](#license)
 
